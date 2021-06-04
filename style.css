@@ -1,0 +1,74 @@
+/*<!-----#---created by michael ndula----#---->*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+    color: #ffffff;
+}
+h4{
+    font-family: calibri;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #1faaeb;
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 20px;
+}
+.coming-soon {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./img/2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.coming-soon{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.day,.hour,.minutes,.seconds{
+    font-family: Arial;
+    font-size: 2rem;
+}
+.day{
+    color: #ff3c00;
+}
+.hour{
+    color: rgb(252, 198, 19);
+}
+.minutes{
+    color:#007bff;
+}
+.seconds{
+    color:#07c931;
+}
+
+img{
+    width: 45%;
+}
+
+.copyright p{
+    font-family: Arial;
+    font-size: 18px;
+}
